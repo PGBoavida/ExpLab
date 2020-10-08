@@ -1,0 +1,23 @@
+FORMAT: 1A
+HOST: https://isac.sac.digital
+
+# TESTE API
+
+Teste a API com isac.sac.digital
+## Contactos Collection [/login]
+
+###  Autentica Contacts [POST]
+
++ Request (application/json)
+ {
+      "client": "91b7cb8a-26b3-455c-88b4-7f9cce749a4c",
+      "password": "n2SbUylAzKleLRAFHGwqMcDYFfijmpuVGvWaKIgg",
+      "scopes": [
+          "send",
+          "contact"
+      ]
+  } 
+
+
+
++ Response 200 (application/json)
